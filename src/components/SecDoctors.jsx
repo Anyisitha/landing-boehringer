@@ -11,7 +11,7 @@ export const SecDoctors = () => {
             <div className="doctor_one_container">
                <div className="content_one_dc">
                <div className="row">
-                    <div className="col-md-8">
+                    <div className="col-lg-8">
                         <div className="doctor_one_title">
                             <h1> { doctorOne } </h1>
                             <p>Soy médico endocrinólogo graduado de la Universidad
@@ -26,7 +26,7 @@ export const SecDoctors = () => {
                                 la Academia Digital Comida Real</p>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-lg-4">
                         <div className="doctor_one_image">
 
                         </div>
@@ -39,10 +39,10 @@ export const SecDoctors = () => {
         <div className="doctor_two_container">
                <div className="content_two_dc">
                <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-lg-4">
                     <div className="doctor_two_image"></div>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-lg-8">
                     <div className="doctor_one_title">
                             <h1> { doctorTwo } </h1>
                             <p>Médico especialista en medicina interna de la Universidad

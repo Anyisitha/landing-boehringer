@@ -9,7 +9,7 @@ import LogonNav from './assets/images/semi_footer25.png'
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{ padding: 0  }}>
       {/* <NavbarComponnet/> */}
       <Banner/>
       <MainContent/>
@@ -17,7 +17,7 @@ function App() {
       < SecDoctors/>
       <  FormFooter/>
       <div className='secion-nav'>
-        <span className='col-md-12 d-flex justify-content-center avalado'>Avalado por:</span>
+        <span className='col-md-12 d-flex pt-4 justify-content-center avalado'>Avalado por:</span>
         <div className='row'>
         <div className='col-md-6 d-flex justify-content-center nav-logo'>
             <img className='mt-4 boehringer' src={LogonNav} alt="logo-nav"/>

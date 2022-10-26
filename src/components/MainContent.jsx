@@ -12,7 +12,7 @@ const ciudad = 'Pereira';
   return (
     <div>
         <div className="row">
-            <div className="col-md-4">
+            <div className="col-lg-4">
                <div className="boxes_container_title">
                     <div className="box_one">
                         <h2>Descubra junto a los  <br />
@@ -32,7 +32,7 @@ const ciudad = 'Pereira';
                     </div>
                </div>
             </div>
-            <div className="col-md-8">
+            <div className="col-lg-8">
                
               <div className="image_box">
           <div className="box_form">
